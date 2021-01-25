@@ -29,9 +29,13 @@
   a:hover {
     color: #FFF;
   }
+   @media only screen and (max-width: 600px) {
+    .box {
+      width: 30%;
+    }
+}
 </style>
 <script type="text/javascript">
-
   $( document ).ready(function() {
       var div = $( "#box" ).first()
         window.setInterval(function(){
@@ -47,7 +51,7 @@
     <p>ONDE O MONSTRO QUE TREINA COMO UM, COME COMO DOIS</p>
    </div>
    <div id="box">
-    <img src="trailler.png">
+    <img src="trailler.png" class="box">
    </div>
   </div>
 <footer class="navbar navbar-fixed-bottom">
