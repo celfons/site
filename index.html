@@ -3,21 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="author" content="Marcel Fonseca Resende de Oliveira">
-  <meta name="description" content="Portfolio Marcel Fonseca Resende de Oliveira" />
-  <meta name="keywords" content="Marcel, Fonseca, Resende, Oliveira">
+  <meta name="description" content="MAROMBA FOODS" />
+  <meta name="keywords" content="MAROMBA, FOODS">
   <meta name="google" content="notranslate" />
   <meta name="robots" content="index,follow">
-  <meta name="google-site-verification" content="h_d4ZzH871kHW9VQI9_XAvGyRnXF-ciAds1BacQRS-g" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="favicon.ico" />
-  <title>MAROMBA FOODS</title>
-  <style>
-    body {
-      background-image: url(logo.jpeg);
-      background-repeat: no-repeat;
-      background-size: cover; 
-    }
-  </style>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title>MAROMBA FOOD'S</title>
+<style>
+  body {
+    background-color: #2b0a0a;
+    margin-top: -5%;
+  }
+  p {
+    margin-top: -7%;
+    color: #FFF;
+    font-size: 0.75em;
+  }
+  a {
+    color: #BD3516;
+  }
+  a:hover {
+    color: #FFF;
+  }
+</style>
+<script type="text/javascript">
+
+  $( document ).ready(function() {
+      var div = $( "#box" ).first()
+        window.setInterval(function(){
+          div.css({left: div.position().left + 10, position:'absolute'});
+        }, 1000); 
+  });
+</script>
 </head>
 <body>
+  <div class="container">
+    <div class="p-5 text-center bg-light">
+    <img src="logo.png" width="100%">
+    <p>ONDE O MONSTRO QUE TREINA COMO UM, COME COMO DOIS</p>
+   </div>
+   <div id="box">
+    <img src="trailler.png">
+   </div>
+  </div>
+<footer class="navbar navbar-fixed-bottom">
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2020 Copyright:
+    <a class="text-dark" href="https://marombafoods.com.br/">marombafoods.com.br</a>
+  </div>
+</footer>
 </body>
 </html>	
